@@ -1,0 +1,310 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+section {
+    padding: 20px;
+}
+
+#intro {
+    background-color: #f4f4f4;
+}
+
+#funciones {
+    background-color: #e2e2e2;
+}
+
+#tipos {
+    background-color: #d0d0d0;
+}
+
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.Table th, .Table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.Table th {
+    background-color: #f2f2f2;
+}
+
+.Sist {
+    font-size: 2em;
+    color: #1b02fd;
+}
+
+.Tit {
+    color: #1100ff;
+}
+
+.img {
+    max-width: 90%;
+    height: auto;
+}
+.Funciones{
+    color: #1100ff;
+}
+.importa{
+    color: #1100ff;
+}
+.evo{
+    color: #1100ff;
+}
+.ImportComp{
+    color: #1100ff;
+}
+.LinkU{
+    color: #1100ff;
+}
+.LaMejorU{
+    color: #1100ff;
+}
+
+
+
+
+/**segunda pag**/
+.windows{
+    color: blue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tabla{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 250px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    text-align: center;
+}
+.Versiones{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.containerr{
+    display: flex;
+    justify-content: right;
+}
+.imgwindows{
+    width: 350px;
+    height: 250px;
+}
+.historia{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.permisos{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Criticas{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/**pagina3**/
+.linux{
+    color: blue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.diseño{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.creacion{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: right;
+}
+.linuxx{
+    width: 350px;
+    height: 250px;
+}
+.EntornoLinux{
+    width: 500px;
+    height: 350px;
+}
+.entorno{
+    color: blue;
+}
+/**ubuntu**/
+.ubuntu{
+    color: blue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inicioubuntu{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.expancion{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.instalación{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.completo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+.logoubunto{
+    width: 250px;
+    height: 250px;
+}
+
+/** MAC OS**/
+.MACOS{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.versiom{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.completomac{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+.classicmac{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.macx{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/**ios**/
+.ioscompleto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+.iostitulo{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.historiaios{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.caracteristicasios{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.carpetaios{
+    color: blue;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.seguridadios{
+    color: blue;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.tecnoios{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.pantallaprincipal{
+    color: blue;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+/**android**/
+.completoandroid{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+
+}
+.androidtitulo{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.historiaandroid{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.googleandroid{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/**Contactenos**/
